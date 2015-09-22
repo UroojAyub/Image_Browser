@@ -1,0 +1,79 @@
+
+<html>
+<head>
+<style>
+	header {
+	background-color:#D44C4C;
+    font-family:century gothic;
+	text-align:center;
+	font-size: xx-large;
+	}
+	body{
+	background-color:#1C1819;
+	}
+	div#main{
+	text-align:center;
+	height:85%;
+	width:100%;
+	padding:5px;
+	}
+	div#thumbnails{
+	text-align:center;
+	background-color:#D44C4C;
+	height:15%;
+	width:100%
+	}
+	div#thumbnails img{
+	padding:2px;
+	height:97%;
+	width:16%%
+	}
+	div#main img {
+	   object-fit: contain;
+	   height:100%;
+	   <!--display:block;-->
+	}
+	.main div {
+	display:none
+	}
+	.main div:target {
+	display:block;
+	}
+</style>
+</head>
+<body>
+
+	<header>Image Browser</header>
+
+<div id="main">
+	<div id="1">
+	   <img src="Images/one.jpg"> 
+	</div>  
+		<div id="2">
+	   <img src="Images/two.jpg"> 
+	</div> 
+	<div id="3">
+	   <img src="Images/three.jpg"> 
+	</div> 
+	   
+	 <div id="4">
+	   <img src="Images/four.jpg"> 
+	</div> 
+	<div id="thumbnails" >		
+		<a href="#1"><img src="Images/one.jpg"></a> 		
+		<a href="#2"><img src="Images/two.jpg"></a> 
+		<a href="#3"><img src="Images/three.jpg"></a>
+		<a href="#4"><img src="Images/four.jpg"></a>
+		<a href="#5"><img src="Images/five.jpg"></a>
+	</div>
+	<div id="5">
+	   <img src="Images/five.jpg"> 
+	</div> 
+	<div id="6">
+	   <img src="Images/six.jpg"> 
+	</div> 
+	
+</div>
+
+</body>
+</html>
